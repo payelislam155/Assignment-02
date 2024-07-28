@@ -7,8 +7,9 @@
   font-style: normal;
 }
 header{
-    width: 1250px;
+    max-width: 1250px;
     height: 600px;
+    margin: 0 auto;
     border: 2px solid red;
     margin-bottom: 60px;
 }
@@ -17,7 +18,7 @@ html{
 }
 .navbar-menu{
     max-width:1440px;
-    border: 2px solid red;
+    border: 2px solid rgb(43, 255, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,9 +67,9 @@ html{
     display: flex;
 }
 .text-fitness{
-    width: 430px;
-    height: 392px;
-    border: 2px solid red;
+    max-width: 430px;
+    max-height: 392px;
+    border: 2px solid rgb(102, 255, 0);
     position: relative;
     left: 160px;
     top: 60px;
@@ -166,8 +167,8 @@ html{
     bottom: 220px;
 }
 .img-fitness img{
-    width: 319px;
-    height: 468px;
+    max-width: 319px;
+    max-height: 468px;
     border: 2px solid red;
     z-index: 2;
     position: relative;
@@ -280,12 +281,13 @@ html{
     margin-bottom: 50px;
 }
 .BMI-calculator-chart{
-    width: 1250px;
+    max-width: 1250px;
     height: 350px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     background: rgb(34, 34, 34);
-    border: 2px solid red;
+    border: 2px solid rgb(55, 0, 255);
     margin-bottom: 40px;
 }
 .BMI-chart {
@@ -356,7 +358,7 @@ html{
 }
 /* Meet Our Team box styles */
 #our-team{
-    width: 920px;
+    max-width:920px;
     height: 550px;
     margin: 0 auto;
     border: 2px solid red;
@@ -391,8 +393,9 @@ html{
 }
 /* footer styles */
 #footer-main{
-    width: 1250px;
+    max-width:1250px;
     height: 330px;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
   }
   .footer-content{
