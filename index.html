@@ -6,6 +6,7 @@
     <title>Fitness</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />         
 </head>
 <body>                      
                         <!--itness-main-conten-->
@@ -22,6 +23,9 @@
                             <li><a href="#">About</a></li>
                         </div>
                     </ul>
+                    <div class="nav-hamburger-menu">
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
                 </nav>
                 <div class="fitness-content">
                        <div class="text-fitness">
@@ -36,19 +40,20 @@
                                  </div>
                              </div>
                        </div>
-                       <div class="video-playlist">
+                       <div class="video-playlist-box-1">
+                            <div class="video-playlist">
                             <div class="logo-radius">
-
                             </div>
                             <div>
                                 <h2>350+</h2>
                                 <h4>Video tutorial</h4>
                             </div>
                         </div> 
+                       </div>
                        <div class="img-fitness">
                              <img src="./img/images 2.png" alt="">
                        </div>
-                       <div class="video-playlist-position">
+                       <div class="video-playlist-box-2">
                         <div class="video-playlist">
                             <div>
                                  <h2>500+</h2>
@@ -143,7 +148,7 @@
                          <select id="arman" name="arman" required>
                             <option value="arman">Select an activity factor</option>
                         </select><br>
-                         <button>Calculate</button>
+                         <button id="b">Calculate</button>
                      </div>
                  </div>
        </section>

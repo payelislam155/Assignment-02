@@ -1,3 +1,112 @@
 @media screen and (max-width:576px){
-    
+    .nav-hamburger-menu{
+        display: block;
+    }
+    .navbar-menu{
+        padding: 20px;
+    }
+    .navbar-menu ul{
+        display: none;
+    }
+    .fitness-content{
+        width: 80%;
+        flex-direction: column;
+        margin-left: -140px;
+    }
+    .text-flex{
+        width: 120%;
+    }
+    .btn-1, .btn-2{
+        margin-top: -20px;
+    }
+    #img-radius-flex{
+        flex-direction: column;
+    }
+    header{
+        margin-bottom: 480px
+    }
+    .video-playlist{
+        position: relative;
+        bottom: 200pc;
+    }
+    .video-playlist-box-2{
+        position: relative;
+        left: 10pc;
+        bottom: 49pc;
+    }
+    .video-playlist-box-1{
+        position: relative;
+        right: 50px;
+        bottom: 60px;
+    }
+    .img-fitness img{
+        position: relative;
+        left: 220px;
+        border: 2px solid green;  
+    }
+    .habit-content{
+        width: 100%;
+        border: 2px solid blue;
+        margin-bottom: 75pc;
+    }
+    #img-radius-flex{
+        text-align: center;
+        padding-right: 35px;
+    }
+    #img-radius-flex img{
+        width: 60%;
+        height: 60%;
+        border-radius: 500px;
+    }
+    #Run-img{
+        max-width:100%;
+        height: 580px;
+        flex-direction: column;
+    }
+    .single-text button{
+        width: 140%;
+        padding: 20px;
+        border-radius: 50px; 
+    }
+    .single-img img{
+        position: relative;
+        left: 30px;
+        top: 90px;
+    }
+    .BMI-calculator-chart{
+        flex-direction: column;
+        height: 655px;
+        margin-bottom: 20px;
+    }
+    .BMI-chart{
+        width: 90%;
+        margin-left: 14px;
+    }
+    .Calculator{
+        min-width: 93%;
+        min-height: 300px;
+        margin-left: 14px;
+    }
+    #our-team{
+        margin-bottom: 870px;
+    }
+    .grid-six-img{
+        border: 2px solid green;
+        max-width:75%;
+        height: 1185px;
+        padding-left: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-main{
+        padding-left: 10px;
+        width: 100%;
+        height: 720px;
+        padding-left: 5px;
+    }
+    .footer-content{
+        flex-direction: column;
+        padding-left: 25px;
+        line-height: 20px;
+    }
 }
