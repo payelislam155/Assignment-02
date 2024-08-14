@@ -1,15 +1,8 @@
-@import url('https://fonts.cdnfonts.com/css/miama');
-.inter-font{
-  font-family: 'Miama', sans-serif;                                  
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
+/*Fitness main contain start styles*/
 header{
     max-width: 1250px;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-bottom: 60px;
 }
 html{
@@ -17,7 +10,6 @@ html{
 }
 .navbar-menu{
     max-width:1440px;
-    border: 2px solid rgb(43, 255, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,8 +23,8 @@ html{
     color: rgb(230, 83, 60);
     font-family: Inter;
     font-style: italic;
-    font-size: 26px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: bold;
     list-style: none;
     text-decoration: none;
 }
@@ -72,14 +64,15 @@ html{
 .text-fitness{
     max-width: 430px;
     max-height: 392px;
-    border: 2px solid rgb(238, 5, 223);
     position: relative;
     left: 160px;
     top: 60px;
 }
 .italic{
-    font-style: italic;
-    font-weight: 300;
+    font-family: 'Miama', sans-serif;
+    font-weight: 200;
+    font-size: 80px;
+    line-height: 10px;
 }
 .text-fitness h1{
     color: rgb(255, 255, 255);
@@ -134,7 +127,7 @@ html{
 .video-playlist{
     display: flex;
     background: rgba(48, 48, 48, 0.54);
-    border: 2px solid red;
+    border-radius: 15px;
     width: 150px;
     height: 76px;
     z-index: 3;
@@ -182,15 +175,13 @@ html{
 .img-fitness img{
     max-width: 319px;
     max-height: 468px;
-    border: 2px solid red;
     z-index: 2;
     position: relative;
     left: 150px;
     top: 50px;
 }
-/* Habits content styles */
+/* My Exercise Habit styles */
 .habit-content{
-    border: 2px solid red;
     width: 920px;
     height: 352px;
     margin: 0 auto;
@@ -232,7 +223,7 @@ html{
     text-align: center;
     margin-top: -15px;
 }
-/* single photo run styles */
+/* Run physical Exercise styles */
 #Run-img{
     width: 920px;
     height: 280px;
@@ -240,7 +231,6 @@ html{
     display: flex;
     margin: 0 auto;
     border-radius: 10px;
-    border:2px solid red;
     margin-bottom: 60px;
 }
 .single-text{
@@ -273,7 +263,6 @@ html{
     top: -40px;
 }
 .single-img img{
-    border:2px solid red;
     width: 85%;
     height: 230px;
     border-radius: 20px;
@@ -281,7 +270,7 @@ html{
     left:35px;
     top: 25px;
 }
-/* BMI Calculator Styles */
+/* BMI Calculator and chart styles*/
 #BMI-Calculator h1{
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -370,12 +359,11 @@ html{
     border: none;
     padding: 13px 60px;
 }
-/* Meet Our Team box styles */
+/* Meet Our Team gym styles */
 #our-team{
     max-width:920px;
     height: 550px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-bottom: 66px;
 }
 #our-team h1{
@@ -387,7 +375,7 @@ html{
     text-align: center;
 }
 .grid-six-img{
-    width: 876px;
+    max-width: 876px;
     height: 385px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
@@ -397,15 +385,27 @@ html{
     column-gap: 10px;
     row-gap: 10px;
     padding: 20px;
-    border: 2px solid red;
 }
-.grid-six-img img{
+.grid-row img{
     width: 280px;
     height: 185px;
     margin-left: 4px; 
     border-radius: 20px;
+    z-index: 1;
+    position: absolute;
 }
-/* footer styles */
+.grid-row h4{
+    z-index: 2;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+/* Footer fitnes healthy styles */
 #footer-main{
     max-width:1260px;
     height: 330px;
