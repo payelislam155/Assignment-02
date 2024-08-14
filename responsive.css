@@ -42,9 +42,11 @@
     .img-fitness img{
         position: relative;
         left: 220px;
+        top: 70px;
         border: 2px solid green;  
     }
     .triangle{
+        width: 50%;
         position: relative;
         left: 52px;
         top: 762px;
