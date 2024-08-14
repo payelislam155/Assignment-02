@@ -44,10 +44,15 @@
         left: 220px;
         border: 2px solid green;  
     }
+    .triangle{
+        position: relative;
+        left: 52px;
+        top: 762px;
+    }
     .habit-content{
         width: 100%;
         border: 2px solid blue;
-        margin-bottom: 75pc;
+        margin-bottom: 73pc;
     }
     #img-radius-flex{
         text-align: center;
