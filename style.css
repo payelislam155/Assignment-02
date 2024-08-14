@@ -127,6 +127,7 @@ html{
 .video-playlist{
     display: flex;
     background: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.139);
     border-radius: 15px;
     width: 150px;
     height: 76px;
@@ -139,7 +140,7 @@ html{
     width: 30px;
     height: 30px;
     background: rgb(230, 83, 60);
-    border-radius: 20px;
+    border-radius: 20px 20px;
     z-index: 3;
     position: relative;
     top: 25px;
