@@ -302,7 +302,6 @@ html{
     display: flex;
     justify-content: space-evenly;
     background: rgb(34, 34, 34);
-    border: 2px solid rgb(55, 0, 255);
     margin-bottom: 40px;
 }
 .BMI-chart {
@@ -332,7 +331,6 @@ html{
     color: white;
     position: relative;
     top: 40px;
-    border: 2px solid rgb(0, 242, 255);
 }
 .Calculator h5{
     color: rgba(255, 255, 255, 0.5);
