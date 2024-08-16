@@ -87,7 +87,7 @@
         margin-bottom: 870px;
     }
     .grid-six-img{
-        max-width:71%;
+        max-width:75vh;
         height: 1205px;
         padding-left: 10px;
         display: flex;
