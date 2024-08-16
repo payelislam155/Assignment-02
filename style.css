@@ -182,46 +182,50 @@ html{
     top: 50px;
 }
 /* My Exercise Habit styles */
-.habit-content{
+.habit-fitness{
     width: 920px;
-    height: 352px;
+    height: 355px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
-.habit-content h1{
+.habit-text{
+    text-align: center;
+}
+.habit-text h1{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 38px;
+    font-weight: bold;
+    font-size: 25px;
     font-weight: 900;
-    text-align: center;
-    line-height: 10px;
 }
-.habit-content p{
+.habit-text p{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.5px;
+}
+/* My Exercise Habit styles */
+.habit-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(215px,auto));
+    grid-gap:1.1rem;
+    align-items: center;
     text-align: center;
 }
-#img-radius-flex{
-    display: flex;
-    justify-content: space-around;
+.habit-img img{
+    width: 60%;
+    border-radius: 50%;
 }
-#img-radius-flex img{
-    width: 120px;
-    height: 120px;
-    margin-left: 36px;
-    border-radius: 60px;
-    outline: 1px solid grey;
-  }
-#img-radius-flex h3{
+.habit h3{
     color: white;
-    text-align: center;
 }
-#img-radius-flex p{
-    text-align: center;
+.habit p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
     margin-top: -15px;
 }
 /* Run physical Exercise styles */

@@ -49,19 +49,9 @@
         left: 52px;
         top: 732px;
     }
-    .habit-content{
-        max-width: 100%;
-        height: 1550px;
-        margin: 0 auto;
-    }
-    #img-radius-flex{
-        text-align: center;
-        padding-right: 35px;
-    }
-    #img-radius-flex img{
+    .habit-fitness{
         width: 60%;
-        height: 60%;
-        border-radius: 500px;
+        height: auto;
     }
     #Run-img{
         max-width:100%;
